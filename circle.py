@@ -28,9 +28,6 @@
 
 
 
-
-
-
 # import pygame
 # import sys
 # import math
@@ -73,7 +70,7 @@ black=(0,0,0)
 
 def trans(x1,y1,x2,y2):
     tx=0
-    while(tx<300):
+    while(tx<500):
 
         x3=x1+tx
         y3=y1

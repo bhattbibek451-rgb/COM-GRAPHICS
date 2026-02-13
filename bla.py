@@ -32,7 +32,7 @@ def bla(x1,y1,x2,y2):
     else:
         pk=2*dx-dy
         for i in range(dy):
-            print(x,y)
+           
             if(pk<0):
                 y=y+ly
                 pk=pk+2*dx
@@ -56,7 +56,7 @@ while True:
             pygame.quit()
             sys.exit()
     screen.fill(black)
-    bla(0,0,80,30)
+    bla(100,500,300,100)
     
     pygame.display.flip()
 
